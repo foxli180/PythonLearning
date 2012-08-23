@@ -1,7 +1,7 @@
 a=2
 b="test"
 c=str(a)+b
-d="111"
+d="abc"
 e=a+int(d)
 print("c is %s,e is %i" % (c,e))
 '''
