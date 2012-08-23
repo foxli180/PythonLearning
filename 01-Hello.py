@@ -1,2 +1,2 @@
-s1=input ("input your name:")
-print ("hello,%s" % s1)
+s1=input ('input your name:')
+print ('hello,%s' % s1)
