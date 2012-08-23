@@ -1,4 +1,4 @@
-x={'a':'aaa','b':'bbb','c':'12'}
+x={'a':'aaa','b':'bbb','c':'12','d':'15','e':'eee'}
 print (x['a'])
 print (x['b'])
 print (x['c'])
