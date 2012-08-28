@@ -12,7 +12,8 @@ def func_outer():
 
      func_inner()
      print('Change local x to',x)
-     print('Change local y to',y)
+     print('Change local y to',y) #这里y还是 3,因为局部变量y的作用域是 func_ouer
+                                  #global 影响的是top level的变量
 
 func_outer()
 #print('value of x is',x)
