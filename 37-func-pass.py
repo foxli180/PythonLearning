@@ -1,4 +1,4 @@
 def someFunction():
-     pass
+     pass 
 
 print(someFunction())
