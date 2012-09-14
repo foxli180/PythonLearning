@@ -1,3 +1,6 @@
-from string import maketrans
-table = maketrans('cs', 'kz')
-print(table)
+import string
+s = 'abcdefghijklmnopqrstuvwxyz'
+table = s.maketrans('cs', 'kz')
+s.translate(table)
+print(s)
+
