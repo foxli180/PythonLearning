@@ -9,4 +9,4 @@ print (y)
 print (website) # y =list(website) 和y =website 不一样,前者应该是创建新的内存空间,后者应该是指向同一片内存空间
 
 for item in y:
-    print(item, end='')
+    print(item, end="")
